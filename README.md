@@ -71,6 +71,27 @@ This is a static credibility site. It provides:
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Git & Deployment
+
+### Push to GitHub
+
+If you have a GitHub repository, add it as a remote and push:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/jombita-group.git
+git push -u origin main
+```
+
+### Deploy to Vercel
+
+Vercel deployment is configured. Run:
+
+```bash
+npx vercel --prod
+```
+
+Or connect the GitHub repo in [Vercel](https://vercel.com) for automatic deploys on push.
+
 ## How to Deploy (Vercel)
 
 ### Option A: Static Export (current config)
