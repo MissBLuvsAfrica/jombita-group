@@ -15,7 +15,7 @@ export default function Hero({
 }: HeroProps) {
   return (
     <section
-      className="relative bg-jombita-700 text-white py-20 md:py-28"
+      className="relative bg-navy-900 text-white py-20 md:py-28"
       aria-labelledby="hero-headline"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,7 +27,7 @@ export default function Hero({
             {headline}
           </h1>
           {subtext && (
-            <p className="mt-6 text-lg md:text-xl text-jombita-100 opacity-95">
+            <p className="mt-6 text-lg md:text-xl text-navy-200">
               {subtext}
             </p>
           )}
@@ -36,7 +36,7 @@ export default function Hero({
               {primaryCta && (
                 <Link
                   href={primaryCta.href}
-                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium bg-white text-jombita-800 rounded-lg hover:bg-jombita-50 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-jombita-700"
+                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium bg-white text-navy-900 rounded-lg hover:bg-navy-100 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900"
                 >
                   {primaryCta.label}
                 </Link>
@@ -44,7 +44,7 @@ export default function Hero({
               {secondaryCta && (
                 <Link
                   href={secondaryCta.href}
-                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-jombita-800 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-jombita-700"
+                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-navy-900 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900"
                 >
                   {secondaryCta.label}
                 </Link>

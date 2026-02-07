@@ -15,7 +15,7 @@ export default function Stats({ stats }: StatsProps) {
           key={index}
           className="text-center p-6 bg-white border border-slate-200 rounded-lg shadow-sm"
         >
-          <div className="text-2xl md:text-3xl font-bold text-jombita-900">
+          <div className="text-2xl md:text-3xl font-bold text-navy-900">
             {stat.value}
           </div>
           <div className="mt-2 text-sm font-medium text-slate-600">

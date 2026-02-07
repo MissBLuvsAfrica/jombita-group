@@ -98,7 +98,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="relative space-y-6" noValidate>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-jombita-900 mb-1">
+          <label htmlFor="name" className="block text-sm font-medium text-navy-900 mb-1">
             Name <span className="text-red-600">*</span>
           </label>
           <input
@@ -106,7 +106,7 @@ export default function ContactForm() {
             type="text"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500 ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 ${
               errors.name ? 'border-red-500' : 'border-slate-300'
             }`}
             aria-required="true"
@@ -121,7 +121,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="organization" className="block text-sm font-medium text-jombita-900 mb-1">
+          <label htmlFor="organization" className="block text-sm font-medium text-navy-900 mb-1">
             Organization
           </label>
           <input
@@ -129,14 +129,14 @@ export default function ContactForm() {
             type="text"
             value={formData.organization}
             onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
-            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500"
+            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
           />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-jombita-900 mb-1">
+          <label htmlFor="email" className="block text-sm font-medium text-navy-900 mb-1">
             Email <span className="text-red-600">*</span>
           </label>
           <input
@@ -144,7 +144,7 @@ export default function ContactForm() {
             type="email"
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500 ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 ${
               errors.email ? 'border-red-500' : 'border-slate-300'
             }`}
             aria-required="true"
@@ -159,7 +159,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-jombita-900 mb-1">
+          <label htmlFor="phone" className="block text-sm font-medium text-navy-900 mb-1">
             Phone
           </label>
           <input
@@ -167,20 +167,20 @@ export default function ContactForm() {
             type="tel"
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500"
+            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
           />
         </div>
       </div>
 
       <div>
-        <label htmlFor="serviceCategory" className="block text-sm font-medium text-jombita-900 mb-1">
+        <label htmlFor="serviceCategory" className="block text-sm font-medium text-navy-900 mb-1">
           Service Category
         </label>
         <select
           id="serviceCategory"
           value={formData.serviceCategory}
           onChange={(e) => setFormData({ ...formData, serviceCategory: e.target.value })}
-          className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500"
+          className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
         >
           <option value="">Select a category</option>
           {serviceCategories.map((cat) => (
@@ -209,7 +209,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-jombita-900 mb-1">
+        <label htmlFor="message" className="block text-sm font-medium text-navy-900 mb-1">
           Message <span className="text-red-600">*</span>
         </label>
         <textarea
@@ -217,7 +217,7 @@ export default function ContactForm() {
           rows={5}
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-          className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-jombita-500 focus:border-jombita-500 ${
+          className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 ${
             errors.message ? 'border-red-500' : 'border-slate-300'
           }`}
           aria-required="true"
@@ -233,7 +233,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="w-full md:w-auto px-6 py-3 bg-jombita-700 text-white font-medium rounded-lg hover:bg-jombita-800 transition-colors focus:outline-none focus:ring-2 focus:ring-jombita-500 focus:ring-offset-2"
+        className="w-full md:w-auto px-6 py-3 bg-navy-900 text-white font-medium rounded-lg hover:bg-navy-800 transition-colors focus:outline-none focus:ring-2 focus:ring-navy-500 focus:ring-offset-2"
       >
         Send Inquiry
       </button>

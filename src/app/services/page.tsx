@@ -56,13 +56,13 @@ export default function ServicesPage() {
               <tr>
                 <th
                   scope="col"
-                  className="px-6 py-4 text-left text-sm font-semibold text-jombita-900"
+                  className="px-6 py-4 text-left text-sm font-semibold text-navy-900"
                 >
                   Sector
                 </th>
                 <th
                   scope="col"
-                  className="px-6 py-4 text-left text-sm font-semibold text-jombita-900"
+                  className="px-6 py-4 text-left text-sm font-semibold text-navy-900"
                 >
                   Scope
                 </th>
@@ -71,7 +71,7 @@ export default function ServicesPage() {
             <tbody className="divide-y divide-slate-200 bg-white">
               {summaryTable.map((row, i) => (
                 <tr key={i}>
-                  <td className="px-6 py-4 text-sm font-medium text-jombita-800">
+                  <td className="px-6 py-4 text-sm font-medium text-navy-800">
                     {row.sector}
                   </td>
                   <td className="px-6 py-4 text-sm text-slate-600">{row.scope}</td>

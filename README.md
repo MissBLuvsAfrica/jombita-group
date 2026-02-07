@@ -37,14 +37,9 @@ This is a static credibility site. It provides:
 | `/compliance` | Compliance, stakeholders, HSE, ethics        |
 | `/contact` | Contact details + inquiry form                 |
 
-## Design
-
-- **Logo** – Company logo in Header and Footer (`public/logo.png`)
-- **Colors** – White and red (jombita) palette matching the corporate logo
-
 ## Components
 
-- **Header** – Sticky nav with logo, mobile menu
+- **Header** – Sticky nav with mobile menu
 - **Footer** – Contact info and capability statement
 - **Hero** – Headline, subtext, CTAs
 - **Section** – Reusable section wrapper
