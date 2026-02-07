@@ -29,7 +29,7 @@ export default function Section({
             {title && (
               <h2
                 id={ariaLabelledby ?? `${id ?? 'section'}-title`}
-                className="text-2xl md:text-3xl font-bold text-navy-900"
+                className="text-2xl md:text-3xl font-bold text-jombita-900"
               >
                 {title}
               </h2>

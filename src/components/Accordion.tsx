@@ -19,11 +19,11 @@ function AccordionItem({
     <div className="border border-slate-200 rounded-lg overflow-hidden">
       <button
         type="button"
-        className="w-full flex justify-between items-center px-6 py-4 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-navy-500 focus:ring-inset"
+        className="w-full flex justify-between items-center px-6 py-4 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-jombita-500 focus:ring-inset"
         onClick={() => setOpen(!open)}
         aria-expanded={open}
       >
-        <span className="font-medium text-navy-900">{title}</span>
+        <span className="font-medium text-jombita-900">{title}</span>
         <svg
           className={`w-5 h-5 text-slate-500 transition-transform ${open ? 'rotate-180' : ''}`}
           fill="none"

@@ -32,7 +32,7 @@ export default function HomePage() {
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-6 bg-white rounded-lg border border-slate-200 shadow-sm">
-            <h3 className="font-semibold text-navy-900 mb-2">
+            <h3 className="font-semibold text-jombita-900 mb-2">
               Government & Public Works
             </h3>
             <p className="text-slate-600 text-sm">
@@ -40,7 +40,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg border border-slate-200 shadow-sm">
-            <h3 className="font-semibold text-navy-900 mb-2">
+            <h3 className="font-semibold text-jombita-900 mb-2">
               NGO & Humanitarian
             </h3>
             <p className="text-slate-600 text-sm">
@@ -48,7 +48,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg border border-slate-200 shadow-sm">
-            <h3 className="font-semibold text-navy-900 mb-2">
+            <h3 className="font-semibold text-jombita-900 mb-2">
               Corporate & ICT
             </h3>
             <p className="text-slate-600 text-sm">

@@ -15,7 +15,7 @@ export default function LogoGrid({ items, preamble }: LogoGridProps) {
             key={index}
             className="flex items-center justify-center p-6 bg-white border border-slate-200 rounded-lg shadow-sm hover:shadow-md transition-shadow min-h-[100px]"
           >
-            <span className="font-semibold text-navy-800 text-center">
+            <span className="font-semibold text-jombita-800 text-center">
               {name}
             </span>
           </div>

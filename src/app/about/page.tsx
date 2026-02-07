@@ -46,7 +46,7 @@ export default function AboutPage() {
         title="Vision"
         subtitle="Our long-term aspiration"
       >
-        <blockquote className="text-xl md:text-2xl font-medium text-navy-900 border-l-4 border-navy-600 pl-6 py-2">
+        <blockquote className="text-xl md:text-2xl font-medium text-jombita-900 border-l-4 border-jombita-600 pl-6 py-2">
           To be the world&apos;s most trusted partner in general supply, bridging
           the gap between global resources and local needs through innovation
           and integrity.
